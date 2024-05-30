@@ -43,8 +43,6 @@ StoreItem.prototype.totalitem=function(){
    document.getElementById("totalitem3").innerText=Item3.totalitem()
    document.getElementById("totalitem4").innerText=Item4.totalitem()
 
-   function Population(name, gender, address){
-    this.name=name;
-    this.gender=gender;
-    this.address=address;
-}
+   document.getElementById("alltotalitem").innerText=Item4.totalitem()+Item3.totalitem()+Item2.totalitem()+Item1.totalitem()
+
+ 
